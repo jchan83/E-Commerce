@@ -1,0 +1,120 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar{
+    background-color: white;
+}
+
+.nav-link {
+    color: #2e0257;
+    font-weight: bold;
+}
+
+.brand-color{
+    color:#2e0257;
+
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*Banner*/
+
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background:#2e0257;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.banner .row{
+    min-height: calc(100vh-174px);
+}
+
+.banner .inner-page, .banner .inner-page .row {
+    min-height: 400px;
+    height: 500px;
+}
+
+.banner h2{
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.banner p{
+    color:white;
+
+}
+
+@media (min-width: 768px) {
+    .banner h1{
+        font-size: 70px;
+
+    }
+
+    .banner p{
+        color: white;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .banner .intro-text {
+        font-size: 16px;
+        line-height: 1.5;
+
+    }
+
+    .banner-content {
+        margin-top: 20%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner-content{
+        margin-top: 40%;
+    }
+
+    .banner  .inner-page .banner-content {
+        margin-top: 20%;
+        text-align: center;
+    }
+
+    .banner-inner-page .banner-content {
+        margin-top:30%; 
+    }
+
+    .btn-hero{
+        padding: 0;
+    }
+}
+
+
+.btn-hero {
+    background:white !important;
+    color:#2e0257;
+    border-radius: 1.5rem !important;
+    border: 3px solid white;
+    font-weight: bold !important;
+    padding-bottom: 10px;
+}
+
+
+
+
+

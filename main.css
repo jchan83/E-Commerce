@@ -40,7 +40,7 @@ body{
     height: 500px;
 }
 
-.banner h2{
+.banner h2
     font-size: 14px;
     font-weight: normal;
     color: white;
@@ -338,7 +338,7 @@ top: 2px;
 .product-img .action-button a i{
     line-height: 30px;
 }
-.product-img .action-button {
+.product-img .action-button .product-action-width {
     bottom: 45px;
 }
 .product-img .title{
@@ -413,4 +413,23 @@ top: 2px;
     font-size: 15px;
     font-weight: light;
 
+}
+
+/* Service CSS */
+
+
+.service-intro{
+    background: #1e013a;;
+
+}
+
+.service-intro .intro{
+    z-index: 0;
+    position: relative;
+}
+
+.intro{
+    width: 100%;
+    background: #28015a;
+    padding: 30px;
 }
